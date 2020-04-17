@@ -32,7 +32,7 @@ class DevelopConfig(Config):
         "DRIVER": "pymysql",
         "USER": "root",
         "PASSWORD": "",
-        "HOST": "127.0.0.1",
+        "HOST": "39.106.139.81",
         "PORT": "3306",
         "NAME": "test"
     }
