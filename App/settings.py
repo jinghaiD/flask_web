@@ -34,7 +34,7 @@ class DevelopConfig(Config):
         "PASSWORD": "",
         "HOST": "39.106.139.81",
         "PORT": "3306",
-        "NAME": "test"
+        "NAME": "aiwu"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_url(dbinfo)
@@ -52,7 +52,7 @@ class TestingConfig(Config):
         "PASSWORD": "",
         "HOST": "127.0.0.1",
         "PORT": "3306",
-        "NAME": "test"
+        "NAME": "aiwu"
     }
 
     SQLALCHEMY_DATABASE_URI = get_db_url(dbinfo)
